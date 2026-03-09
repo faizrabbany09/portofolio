@@ -126,9 +126,7 @@ const $$ = (selector, ctx = document) => [...ctx.querySelectorAll(selector)];
 
     const roles = [
         'Frontend Developer',
-        'UI Enthusiast',
-        'React Developer',
-        'Web Creator',
+        'Web Developer',
     ];
 
     let roleIndex = 0;
@@ -244,3 +242,6 @@ const $$ = (selector, ctx = document) => [...ctx.querySelectorAll(selector)];
 
     stats.forEach(el => observer.observe(el));
 })();
+
+
+
